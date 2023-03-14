@@ -1,1 +1,2 @@
-# BrightspotPlugin
+# Brightspot Debug Playground Plugin
+
