@@ -3,8 +3,8 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+group 'com.brightspot-debug-playground'
+version '1.0.1'
 
 repositories {
     mavenCentral()
@@ -27,10 +27,20 @@ intellij {
 
 patchPluginXml {
     changeNotes = """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      Updated the response view to the default intellij html preview
+      """
 }
 
 test {
     useJUnitPlatform()
+}
+
+signPlugin {
+    certificateChain = System.getenv("INTELLIJ_PLUGIN_CERTIFICATE_CHAIN")
+    privateKey = System.getenv("INTELLIJ_PLUGIN_PRIVATE_KEY")
+    password = System.getenv("INTELLIJ_PLUGIN_PRIVATE_KEY_PASSWORD")
+}
+
+publishPlugin {
+    token = System.getenv("INTELLIJ_PLUGIN_PUBLISH_TOKEN")
 }
