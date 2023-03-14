@@ -1,10 +1,10 @@
 <idea-plugin>
-    <id>org.example.BrightspotPlugin</id>
-    <name>Brightspot Utils</name>
+    <id>org.example.BrightspotDebugPlaygroundPlugin</id>
+    <name>Brightspot Debug Playground</name>
     <vendor url="https://www.brightspot.com/">Brightspot</vendor>
 
     <description><![CDATA[
-        A Plugin to assist with brightspot utility
+        A Plugin to assist with brightspot debug playground to allow for calls from the ide.
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
