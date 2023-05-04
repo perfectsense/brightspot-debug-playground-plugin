@@ -4,8 +4,6 @@
 
 Here is an IntelliJ plugin that allows for _debug/code testing to be done from your browser.
 
-Here is a link to the confluence page with more information and demos of the plugin: https://perfectsense.atlassian.net/wiki/spaces/DEL/blog/2023/01/26/3244785691/Brightspot+Debug+Playground+Plugin
-
 Note: this plugin can be used on any file, not just scratch files, but it is only configured to evaluate java files in the same way the code debugger evaluates them.
 
 ## Setup
